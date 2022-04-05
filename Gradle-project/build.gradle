@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'Piano'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'junit:junit:4.13.1'
+    testCompile group: 'junit', name: 'junit', version: '4.13'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.26'
+    compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '4.2.1.Final'
+    compile group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.0-api', version: '1.0.1.Final'
+}

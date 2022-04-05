@@ -1,0 +1,5 @@
+out/
+.idea/
+Gradle-project/.gradle/
+Gradle-project/build/
+lib/
